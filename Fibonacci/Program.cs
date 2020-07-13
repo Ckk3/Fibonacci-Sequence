@@ -4,11 +4,11 @@ using System.Collections.Generic;
 namespace Fibonacci {
     class Program {
         static void Main(string[] args) {
-            //Declarando Variáveis
+            //Declaring Variables
             List<int>  fibonacci;
-            int previous, anterior2, first, second, amount;
+            int first, second, amount;
 
-            //Iniciando Variáveis
+            //Starting Variables
             fibonacci = new List<int> { };   
             first = 0;
             second = 0;
